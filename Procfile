@@ -1,3 +1,3 @@
 web:python manage.py runserver
-web: gunicorn toshi-station-bot.wsgi --log-file -
+web: gunicorn hello:toshibot
 heroku ps:scale web=1
