@@ -1,3 +1,3 @@
 web:python manage.py runserver
-web: gunicorn manage:run
+web: gunicorn run.wsgi
 heroku ps:scale web=1
