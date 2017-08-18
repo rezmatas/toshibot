@@ -1,5 +1,6 @@
 discord.py[voice] ~= 0.12.0
 pip
+gunicorn
 cffi==1.6.0;
 aiohttp==1.0.5
 async-timeout==1.2.1
