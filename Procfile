@@ -1,3 +1,3 @@
 web:python manage.py runserver
-web: gunicorn run.py
+web: gunicorn -b :$PORT app:app
 heroku ps:scale web=1
