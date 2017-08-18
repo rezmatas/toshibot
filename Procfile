@@ -1,2 +1,2 @@
-worker: python run.py
+worker: python worker.py
 heroku ps:scale worker=1
